@@ -33,9 +33,14 @@ namespace Controllers.Implement_Class
            if(result != null)
             {
                 Const.LoaiTaiKhoan = result.Power;
+                
                 return true;
             }
             return false;
+        }
+        public bool CheckUserName(string name)
+        {
+            return accounts.Where(x=>x.UserName == name).Any();
         }
         public override bool Update(Account model, int ID)
         {

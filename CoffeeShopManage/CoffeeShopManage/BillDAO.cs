@@ -28,7 +28,11 @@ namespace CoffeeShopManage
                     case 1:
                         {
                             Case1();
-                            Case2();
+                            break;
+                        }
+                    case 2:
+                        {
+                            Case5();
                             break;
                         }
                         
@@ -64,7 +68,8 @@ namespace CoffeeShopManage
             {
                 Bill bill = new Bill();
                 bill.IDTable = iDTable;
-                bill.ID = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds();
+                bill.ID = ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds(); 
+                
                 bill.DateCheckIn = DateTime.Now;
                 char c;
                 do
@@ -113,7 +118,7 @@ namespace CoffeeShopManage
                     c = char.Parse(Console.ReadLine());
                 } while (c != 'n');
                 BillContrloller.Instance.Create(bill);
-                var table =listTable.SingleOrDefault(x => x.ID == iDTable);
+                var table = TableController.Instance.GetByID(iDTable);
                 table.Status = "co nguoi";
                 Console.WriteLine("them hoa don thanh cong!");
             }
@@ -139,7 +144,7 @@ namespace CoffeeShopManage
             if (TableController.Instance.CheckByIDPeople(idTable) == true)
             {
                 int i = 0;
-                var menuBill = MenuBilController.Instance.GetByMenuBill();
+                var menuBill = MenuBilController.Instance.GetByMenuBill(idTable);
                 Console.WriteLine("|---|---------------|----------|------|");
                 Console.WriteLine("|STT| Food Name     | Price    | Count|");
                 Console.WriteLine("|-------------------------------------|");
@@ -234,7 +239,32 @@ namespace CoffeeShopManage
         }*/
         void Case5()
         {
-
+            var listTablePeople = TableController.Instance.GetByListTablePeople();
+            Console.WriteLine("Danh sach ban co nguoi");
+            Console.WriteLine("|---------------------|");
+            Console.WriteLine("|STT | Ban | status   |");
+            Console.WriteLine("|---------------------|");
+            listTablePeople.ToList().ForEach(x =>
+            {
+                Console.WriteLine($"|{x.ID,-4}|{x.ID,-5}|{x.Status,-10}|");
+            });
+            Console.WriteLine("|---------------------|");
+            Console.Write("nhap ID ban: ");
+            int idTable = Convert.ToInt32(Console.ReadLine());
+            List <MenuBill> listMenu = MenuBilController.Instance.GetByMenuBill(idTable);
+            decimal totalPrice = 0;
+            Console.WriteLine("|----------------------------------------------------|");
+            Console.WriteLine("|STT|     Food Name     | Price | Count | TotalPrice |");
+            Console.WriteLine("|----------------------------------------------------|");
+            int i = 0;
+            decimal total = 0;
+            foreach(var item in listMenu)
+            {
+                Console.WriteLine($"|{++i,-3}|{item.FoodName,-20}|{item.Price,-7}|{item.Count,-7}|{item.TotalPrice,-12}|");
+                total += item.TotalPrice;
+            }
+            Console.WriteLine($"|>>>>>: Can phai thanh toan:{total}");
+            Console.WriteLine("|----------------------------------------------------|");
         }
     }
 }

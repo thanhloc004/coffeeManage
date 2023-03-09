@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
+      "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
       "projectName": "CoffeeShopManage",
-      "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
+      "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
       "packagesPath": "C:\\Users\\loctt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\obj\\",
+      "outputPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\loctt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,11 +72,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\Controllers.csproj": {
-              "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\Controllers.csproj"
+            "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\Controllers.csproj": {
+              "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\Controllers.csproj"
             },
-            "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj"
+            "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj"
             }
           }
         }

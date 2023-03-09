@@ -16,31 +16,32 @@ namespace Controllers.Implement_Class
             private set { MenuBilController.instance = value; }
         }
         private MenuBilController() { }
-        List<MenuBill> listMenuBill = new List<MenuBill>();
-        public List<MenuBill> GetByMenuBill()
+        
+        public List<MenuBill> GetByMenuBill(int iD)
         {
-            decimal total = 0;
+            List<MenuBill> listMenuBill = new List<MenuBill>();
             var listBill = BillContrloller.Instance.GetByListAllBill();
             var listInfo = BillInfoController.Instance.GetByListInfoAll();
             var listFood = FoodController.Instance.GetByListFoodAll();
             var result = from b in listBill
                          from bi in listInfo
                          from f in listFood
-                         where bi.IDBill == b.ID && bi.IDFood == f.ID
+                         where bi.IDBill == b.ID && bi.IDFood == f.ID && b.IDTable == iD
                          select new
                          {
-                             IDbill  = b.ID,
                              nameFood = f.FoodName,
-                             price = f.Price * bi.Count,
+                             price = f.Price,
                              Count = bi.Count,
+                             totalPrice = f.Price * bi.Count
                          };
 
             result.ToList().ForEach(x =>
             {
-                MenuBill menu = new MenuBill(x.IDbill, x.nameFood, x.price, x.Count, total);
+                MenuBill menu = new MenuBill( x.nameFood, x.price, x.Count, x.totalPrice);
                 listMenuBill.Add(menu);
             });
             return listMenuBill;
         }
+        
     }
 }

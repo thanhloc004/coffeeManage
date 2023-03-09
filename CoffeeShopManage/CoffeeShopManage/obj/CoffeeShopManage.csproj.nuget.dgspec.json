@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj": {}
+    "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj": {
+    "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
+        "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
         "projectName": "CoffeeShopManage",
-        "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
+        "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\CoffeeShopManage.csproj",
         "packagesPath": "C:\\Users\\loctt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\CoffeeShopManage\\obj\\",
+        "outputPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\CoffeeShopManage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loctt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\Controllers.csproj": {
-                "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\Controllers.csproj"
+              "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\Controllers.csproj": {
+                "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\Controllers.csproj"
               },
-              "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj"
+              "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\Controllers.csproj": {
+    "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\Controllers.csproj",
+        "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\Controllers.csproj",
         "projectName": "Controllers",
-        "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\Controllers.csproj",
+        "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\Controllers.csproj",
         "packagesPath": "C:\\Users\\loctt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Controllers\\obj\\",
+        "outputPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loctt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj"
+              "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj"
               }
             }
           }
@@ -125,14 +125,14 @@
         }
       }
     },
-    "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj": {
+    "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\loctt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loctt\\OneDrive\\Documents\\CoffeeShopManage\\Models\\obj\\",
+        "outputPath": "C:\\Users\\loctt\\OneDrive\\Desktop\\coffeeManage\\CoffeeShopManage\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loctt\\AppData\\Roaming\\NuGet\\NuGet.Config",
